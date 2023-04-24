@@ -83,7 +83,7 @@
   <div class="flex flex-col w-full px-0 items-center h-full">
 	<div class="chat-container w-full bg-gray-900 rounded-md p-4 overflow-y-auto flex flex-col gap-4">
 	  <div class="flex flex-col gap-2">
-		<ChatMessage type="assistant" message="What do you want!" />
+		<ChatMessage type="assistant" message="Greetings! I am George Washington, the founding father and first president of the United States. Let's discuss the principles of democracy and the birth of a nation." />
 		{#each chatMessages as message}
 		  <ChatMessage type={message.role} message={message.content} />
 		{/each}
